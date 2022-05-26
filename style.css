@@ -1,0 +1,28 @@
+html {
+    background-color: rgb(132, 240, 132);
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    text-align: center;
+    max-width: 100vw;
+    max-height: 95vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 1px;
+}
+h1, h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgba(236, 234, 99, 0.87);
+    border-radius: 5px;
+    color: black;
+}
