@@ -32,8 +32,8 @@ a:hover {
 }
 
 table {
-    width: 420px;
-    height: 420px;
+    /* width: 420px;
+    height: 420px; */
     border-collapse: collapse;
     border: 5px solid red;
 }
@@ -43,6 +43,9 @@ td {
     vertical-align: middle;
 }
 
-/* tr > th {
-    text-align: center;
-} */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXX  TABELA_GRANDE  XXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+#t02 {
+    border: 2px solid black;
+    margin-top: 5px;
+}
