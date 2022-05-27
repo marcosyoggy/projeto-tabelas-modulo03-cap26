@@ -38,7 +38,7 @@ table {
     border: 5px solid red;
 }
 
-td {
+td, th {
     border: 2px solid black;
     vertical-align: middle;
 }

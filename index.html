@@ -42,11 +42,17 @@
             <tbody>
                 <tr>
                     <td>Content-1</td>
+                    <td>Content-1</td>
+                    <td>Content-1</td>
                 </tr>
                 <tr>
                     <td>Content-2</td>
+                    <td>Content-2</td>
+                    <td>Content-2</td>
                 </tr>
                 <tr>
+                    <td>Content-3</td>
+                    <td>Content-3</td>
                     <td>Content-3</td>
                 </tr>
             </tbody>
@@ -54,11 +60,20 @@
     </thead>
 </table>
 
+<!-- SHORTHAND_TABELA_GRANDE :
+>>> table>thead>tr>th*3{Head-$}+tbody>tr*3>td*3{Column-$} 
+>>> 1- Tag da tabela;
+>>> 2- Cabeçalho Principal com 'thead' alocado em uma linha;
+>>> 3- O nº de títulos é variável na linha do cabeçalho;
+>>> 4- 'tbody', irmão de thead, recebe as linhas e conteúdos;
+
+-->
+
+<!-- SHORTHAND_TABELA_COM_TFOOT:
+    table>(thead>tr>th*3{Head-$})+(tbody>tr*3>td*3{Column-$})+(tfoot>tr>td{Rodapé da Tabela - By Marcos}) -->
 
 
-
-
-
+    <!-- table>(thead>tr>th*3{Head-$})+(tbody>tr*3>td*3{Column-$})+(tfoot>tr>td{Rodapé da Tabela - By Marcos}) -->
 
 
 
